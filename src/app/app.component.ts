@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'first';
+  jokes = [
+    {title: '1', text: '1text'},
+    {title: '2', text: '2text'}
+  ]
 }
